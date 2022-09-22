@@ -1,0 +1,308 @@
+.principal{
+    background-image: url(../../img/img_principal.png);  
+    background-size: cover; 
+    background-position: right bottom;  
+}
+
+
+.principal h1 {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.principal-texto {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.input-ingreso::placeholder,
+.input-email::placeholder {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: #CECECE !important;
+}
+
+.input-ingreso, .input-email, .input-dni{
+    border-radius: 0px !important;
+    border: 1px solid #C4C4C4 !important;
+}
+
+.principal .card-body .row label {
+    font-size: 13px !important;
+    color: #444444;
+    font-weight: 400 !important;
+}
+
+.principal .card-body button {
+    background-color: #0577DC !important;
+    border-radius: 0px !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+}
+
+
+.texto-principal{
+    padding-top: 173px !important; padding-bottom: 491px !important; padding-right: 70px; padding-left: 100px; 
+    width: 720px !important;
+}
+
+
+.titulos-azul {
+    color: #1D0C63 !important;
+    font-size: 30px;
+    font-weight: 600 !important;
+}
+
+.inicio-cabezera{
+    padding-top: 31px !important; margin-left: 20px; margin-right: 20px; 
+}
+
+.card-inicio{
+    width: 470px !important; height: 557px !important;
+}
+
+.inicio-fondo{
+    padding-top: 120px; text-align: -webkit-center;
+    width: 720px !important;
+}
+
+.cabezera-inicio{
+    display: flex !important;
+    justify-content: center !important;
+    flex-wrap: wrap;
+    padding-top: 150px;
+}
+
+
+.moneda-flex{
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+    margin-top: 15px;
+}
+
+.simulacionSpan{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #444444;
+    margin-left: 20px;
+}
+
+.simulacionResultado{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #444444;
+}
+
+.simulacionCuota{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #444444;
+}
+
+.simulacion-leyenda{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 20px;
+    color: #585858;
+}
+
+
+
+.radio input {
+	width: auto;
+	height: 100%;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	outline: none;
+	cursor: pointer;
+	border-radius: 2px;
+	padding: 4px 8px;
+	font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #8B8B8B;
+
+	transition: all 100ms linear;
+}
+
+.radio input:checked {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #0577DC;
+}
+
+.radio input:before {
+	content: attr(label);
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+
+.cotizar-button{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0577DC;
+}
+
+.leyenda1{
+    text-align: left !important;
+    margin-top: 5px;
+    margin-left: -15px;
+}
+
+.leyenda2{
+    text-align: left !important;
+    margin-left: -15px;
+    margin-top: -10px;
+}
+
+#ran {
+    outline: none;     /* Sin línea exterior */
+    padding: 1px;     /* Margen interno */
+    width: 100%;     /* Indicamos que ocupe el ancho total de la página. (Modifique lo a gusto) */
+    box-sizing: border-box;
+    height: 1px !important;
+    margin-top: -10px !important;
+  }
+   
+  /* Estilos del slider del input */
+   
+  #ran::-webkit-slider-thumb, #ran::-moz-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;     /* Le quitamos la apariencia por defecto */
+    width: 1px;     /* Modificable: Ancho */
+    height: 1px;     /* Modificable: Alto */
+    cursor: pointer;     /* Cambiamos el tipo de cursor */
+  }
+   
+.range-espacio{
+    margin-bottom: -3px;
+}
+
+.card-body .row .col-6{
+    padding-bottom: 30px;
+}
+
+.selector-tipo-prestamo{
+    margin-bottom: 25px;
+    border: 1px solid white !important;
+    border-radius: 0px !important;
+    background-color: white !important;
+    color: #1D0C63 !important;
+    font-size: 26px !important;
+    font-weight: 600 !important;
+}
+
+.simulacion-background-left-monto{
+    background-color: #F2F4F8;
+    padding-bottom: 20px !important; 
+    padding-top: 20px !important;
+}
+
+.simulacion-background-left-plazo{
+    background-color: #F2F4F8;
+    padding-bottom: 20px !important; 
+    padding-top: 10px !important;
+}
+
+.simulacion-background-left-cuota{
+    background-color: #F2F4F8;
+    padding-bottom: 20px !important; 
+    padding-top: 10px !important;
+}
+
+.simulacion-background-left-cuota .simulacionSpan{
+    font-weight: 500 !important;
+}
+
+.simulacion-izquierda {
+    text-align: left;
+}
+
+
+
+@media only screen and (min-width:320px) and (max-width:480px){
+    .card-inicio  {
+        width: 100% !important;
+        margin-bottom: 73px !important;
+    }
+
+    .servicios-espaciado{
+        margin-left: 25px !important;
+    }
+
+    .texto-principal{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        padding-top: 133px !important;
+        padding-bottom: 0px !important;
+        margin-bottom: -50px !important;
+        margin-top: -50px !important;
+    }
+
+    .principal-texto-inicio{
+        display: none;
+    }
+    .principal h1{
+        font-size: 30px !important;
+        text-align: center;
+    }
+
+    .box-img-inicio-2 img {
+        height: 325px !important;
+    }
+
+    .titulos-azul{
+        font-size: 26px !important;
+    }
+
+    .nosotros{
+        padding-left: 24px !important;
+        padding-right: 24px !important;
+        margin-bottom: -150px !important;
+    }
+
+    .card-flex{
+        justify-content: center;
+    }
+
+    .servicios{
+        padding-top: 94px !important;
+    }
+
+    .owl-stage{
+        text-align: -webkit-center !important;
+    }
+
+    .box-boton-detalle button{
+        margin-right: 0px !important;
+    }
+
+    .box-boton-detalle{
+        text-align: center !important;
+    }
+}
+

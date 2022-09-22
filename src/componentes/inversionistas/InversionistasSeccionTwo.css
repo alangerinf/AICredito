@@ -1,0 +1,52 @@
+.background-inversionistas{
+    background: #F2F4F8;
+}
+
+.texto-inver-two{
+    padding-top: 229px !important;
+    margin-bottom: 76px !important; 
+}
+
+.texto-inver-two sub{
+    color: #0577DC !important;
+    font-size: 13px !important;
+    font-weight: 500 !important;
+}
+
+.titulos-azul-inversionista {
+    color: #1D0C63 !important;
+    font-size: 30px;
+    font-weight: 600 !important;
+}
+
+.contenido-procedimiento h1{
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 94px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1D0C63;
+    }
+    
+    .contenido-procedimiento .titulo{
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #444444;
+    }
+    
+    .contenido-procedimiento .contenido{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+        color: #444444;
+    }
+
+.contenido-proc-inversionista{
+    padding-bottom: 144px !important;
+}

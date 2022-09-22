@@ -1,0 +1,72 @@
+.testimonios {
+    padding-top: 120px;
+    padding-bottom: 140px;
+    background-color: #F2F4F8 !important;
+    text-align: center;
+}
+
+.carousel-testimonios {
+    margin-top: 70px;
+}
+
+.testimonios sub {
+    color: #0577DC !important;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.carousel-testimonios .item .card-box {
+    background-color: #ffffff !important;
+    width: 310px;
+    height: 320px;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(5, 119, 220, 0.06);
+}
+
+.titulo-carousel{
+    text-align: left;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #444444;
+}
+
+.carousel{
+    display: flex;
+    justify-content: center;
+}
+
+.texto-testimonio{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #444444;
+    text-align: left;
+}
+
+.dni-testimonio{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+
+color: #444444;
+margin-bottom: 5px;
+margin-top: -5px;
+}
+
+.img-testimonio{
+    width: 58px !important;
+    height: 58px !important;
+}
+
+.contenido-testimonio{
+    margin-top: -15px;
+}

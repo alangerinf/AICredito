@@ -1,0 +1,116 @@
+.ayuda-preguntas{
+    padding-bottom: 70px; 
+    padding-top: 205px;
+}
+
+.ayuda-preguntas sub{
+    color: #0577DC !important;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.titulos-azul-preguntas {
+    color: #1D0C63 !important;
+    font-size: 30px;
+    font-weight: 600 !important;
+}
+
+
+.titulo-preguntas {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    line-height: 23px !important;
+    letter-spacing: 0em !important;
+    color: #444444 !important;
+    margin-bottom: -20px !important;
+}
+
+.titulo-preguntas p {
+    text-align: left !important;
+}
+
+.linea-azul {
+    border-bottom: 1px solid #0577DC !important;
+    background-color: transparent !important;
+}
+
+#accordion .card {
+    border: 1px solid transparent !important;
+}
+
+.titulo-body-preguntas {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    line-height: 23px !important;
+    letter-spacing: 0em !important;
+    color: #ffffff !important;
+    margin-left: 100px !important;
+    margin-top: 19px !important;
+    text-align: left !important;
+}
+
+.body-preguntas {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 20px !important;
+    letter-spacing: 0em !important;
+    text-align: left !important;
+    color: #ffffff !important;
+    margin-left: 100px !important;
+    margin-right: 84px !important;
+    margin-bottom: 26px !important;
+
+}
+.pregunta6{
+    padding-right: 50px !important;
+}
+
+.fondo-preguntas{
+    background: #0577DC;
+}
+
+.titulo-contenedor{
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.img-mas{
+    margin-top: 5px;
+}
+
+.img-close{
+    margin-top: 7px;
+}
+
+.contenido-preguntas{
+    margin-top: 26px !important;
+    margin-left: -100px !important;
+    margin-right: -100px !important;
+}
+
+@media only screen and (min-width:320px) and (max-width:480px){
+    .contenido-preguntas{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .titulo-body-preguntas{
+        margin-left: 0px !important;
+    }
+
+    .body-preguntas{
+        margin-left: 0px !important;
+    }
+
+    .titulo-body-preguntas{
+        font-size: 14px !important;
+    }
+
+    .titulo-preguntas{
+        font-size: 14px !important;
+    }
+
+    .body-preguntas{
+        font-style: normal !important;
+    }
+}

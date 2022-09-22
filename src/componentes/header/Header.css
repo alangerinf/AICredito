@@ -1,0 +1,166 @@
+.cabezera {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.active {
+    color: #0577DC !important;;
+    font-weight: 600 !important;
+  }
+
+.estatico{
+    position: fixed !important; z-index:100 !important;
+}
+
+.alineacion-logo{
+    width: 16%;
+    display: grid;
+    text-align: right;
+}
+
+.alineacion-contactanos{
+    text-align:right !important; width: 16%;
+    display: grid;
+    text-align: left;
+}
+
+.redes {
+    position: absolute;
+    height: 19px;
+    left: 70%;
+    top: 31px;
+}
+
+.redes a {
+    text-decoration: none;
+    color: #444444;
+    margin-right: 15px;
+}
+
+.button-header {
+    width: 140px !important;
+    height: 37px !important;
+    left: 1166px !important;
+    top: 27px !important;
+    font-style: normal !important;
+    font-size: 16px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    color: #FFFFFF !important;
+    background: #0577DC !important;
+    border-radius: 4px !important;
+    border: 4px solid #0577DC !important;
+}
+
+.separacion-menu{
+   margin-right: 44px !important;
+   margin-top: 5px !important;
+}
+
+.alineacion-menu{
+    width: 75%;
+    display: grid;
+    text-align: center;    
+    justify-content: center;
+}
+
+#navbarText ul li a{
+    transition: all 0.2s linear;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #444444;
+    text-decoration: none;
+}
+
+
+
+#navbarText ul li a:hover {
+    color: #0577DC;
+    font-weight: 600;
+}
+
+.mostrar{
+    display: none !important;
+}
+
+.navbar-toggler{
+    border: 0px !important;
+    font-size: 25px !important;
+}
+
+@media only screen and (min-width:320px) and (max-width:480px){
+    .alineacion-logo {
+        display: flex !important;
+        justify-content: space-between !important;
+        width: 100% !important;
+    }
+
+    .hamburgesa{
+        align-self: center !important;
+    }
+
+    .navbar-collapse .collapse {
+        height: 45vh !important;
+    }
+
+    .navbar-collapse .collapse .show{
+        text-align-last: left !important;
+        height: 100vh !important;
+        align-items: flex-start !important;
+    }
+
+    .redes{
+        top: 760px !important;
+        left: 30px !important;
+        font-size: 26px !important;
+    }
+
+    .navbar-collapse{
+        height: 100vh !important;
+    }
+
+    .alineacion-menu{
+        display: flex;
+        text-align: left;
+        margin-left: -10px;
+        width: 100%;
+    }
+
+    #navbarText ul li a {
+        font-family: 'Work Sans' !important;
+        font-style: normal !important;
+        font-weight: 600 !important;
+        font-size: 26px !important;
+        line-height: 30px !important;
+        margin-top: 24px !important;
+        margin-left: -7px !important;
+    }
+
+    .separacion-menu{
+        margin-top: 24px !important;
+    }
+
+    .alineacion-contactanos{
+        margin-top: 42px !important;
+    }
+
+    button[aria-expanded="true"] .ocultar{
+        display: none !important;
+        color: #1D0C63 !important;
+    }
+
+    button[aria-expanded="false"] .ocultar{
+        display: block !important;
+        color: #1D0C63 !important;
+    }
+
+    button[aria-expanded="true"] .mostrar{
+        display: block !important;
+        color: #1D0C63 !important;
+    }
+
+    
+ 
+}

@@ -1,0 +1,55 @@
+.tabla-servicios h2{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #444444;
+}
+    
+.tabla-servicios p, .tabla-servicios ul {
+        color: #444444;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.titulos-azul-3-servicios{
+    color: #1D0C63 !important;
+    font-size: 30px;
+    font-weight: 600 !important;
+    text-align: center;
+}
+
+.alineacion-izq-block-3{
+    left: 130px;
+}
+
+.alineacion-izq-block-3 ul{
+    text-align: left;
+    display:inline-block;
+}
+
+.alineacion-der-block-3{
+    right: 130px;
+}
+
+.alineacion-centro-block-3{
+    align-self: center;
+}
+
+.posicion-titulo-block-3-servicios{
+    margin-bottom: 97px; padding-top: 126px;
+}
+
+.pagos-tipos{
+    text-align: center;
+}
+
+.img-prestamos{
+    text-align: center;
+}

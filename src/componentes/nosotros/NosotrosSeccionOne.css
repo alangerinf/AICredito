@@ -1,0 +1,81 @@
+.fondo-seccion-1{
+    background-image: url(../../img/portada_nosotros.png);  
+    background-size: cover; 
+    background-position: right bottom; 
+    position: relative; height: 721px;
+    padding: 0px !important;
+}
+
+.seccion-1-nosotros-top{
+    margin-top: 445px;  
+    margin-right: 0px;  
+    background-color:#0577DC;
+    width: 899px;
+    height: 321px;
+    margin-bottom: 78px; 
+}
+
+.principal-2 h1 {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.texto-nosotros {
+    margin-left: 49px; 
+    margin-right: 365px;
+}
+
+.titulo-1-nosotros{
+    padding-top: 58px; 
+    margin-left: 49px; 
+    margin-right: 337px
+}
+
+.box-cabecera-nosotros{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.img-flecha{
+    margin-left: 100px;
+    width: 66px;
+height: 66px;
+margin-top: 7px;
+}
+
+@media only screen and (min-width:320px) and (max-width:480px){
+    .principal-2 h1 {
+        font-size: 30px;
+    }
+
+    .titulo-1-nosotros{
+        margin-left: 0px;
+        margin-right: 0px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+    }
+    .texto-nosotros{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .seccion-1-nosotros-top{
+        margin-top: 560px;
+    }
+
+    .seccion-1-nosotros-top h1, .seccion-1-nosotros-top p{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .img-flecha{
+        margin-left: 150px;
+    }
+
+    .espacio-block-2-nosotros{
+        padding-bottom: 164px;
+    }
+}

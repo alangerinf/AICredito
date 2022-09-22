@@ -1,0 +1,28 @@
+.principal-inversionista h1 {
+    color: #ffffff !important;
+    font-size: 50px !important;
+    font-weight: 600 !important;
+}
+
+.principal-inversionista{
+    background-color:  #0577DC !important; 
+    position: relative !important;
+}
+
+.principal-inversionista-posicion{
+    padding-top: 173px !important; 
+    padding-bottom: 239px !important; 
+    padding-left: 135px !important;
+}
+
+.principal-texto-inversionista {
+    color: #ffffff !important;
+    font-size: 14px !important;
+}
+
+.img-inversionista{
+    padding-top: 120px !important; 
+    text-align: -webkit-right !important; 
+    padding-right: 0px !important; 
+    position: absolute !important;
+}

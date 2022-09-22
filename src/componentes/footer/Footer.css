@@ -1,0 +1,120 @@
+.foot {
+    margin-top: -235px;
+    padding-top: 130px;
+    padding-bottom: 20px;
+    background-color: #1D0C63;
+    display: flex !important;
+    justify-content: space-between !important;
+    flex-wrap: wrap !important;
+}
+
+
+.footer {
+    /*position: absolute;*/
+    width: 100%;
+    background: #1D0C63;
+    margin-top: -230px;
+    padding-top: 130px;
+}
+
+.footer .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 45px 0px
+}
+
+.footer .grupo-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 195px;
+}
+
+.footer .grupo-1 .box figure img {
+    width: 194.64px;
+    height: 71px;
+    left: 236px;
+    top: 3979px;
+    margin-right: 204px;
+}
+
+.footer .grupo-1 .box h2 {
+    margin-bottom: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.footer .grupo-1 .box p {
+    margin-bottom: 10px;
+    
+    height: 15px;
+    left: calc(50% - 57px/2 - 56.5px);
+    top: 5px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer .grupo-1 .red-social a {
+    display: inline-block;
+    width: 16.5px;
+    height: 16.78px;
+    line-height: 45px;
+    margin-right: 10px;
+    text-align: center;
+    transition: all 300ms ease;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer .grupo-1 .red-social a:hover {
+    color: #e946b8;
+}
+
+.redes-footer {
+    width: 260px;
+}
+
+
+
+@media only screen and (min-width:320px) and (max-width:480px) and (max-width:800px){
+    .footer .grupo-1 .box figure img {
+        margin-right: 0px !important;
+        width: 100% !important;
+    }
+    .alineacion{
+        text-align: center;
+        width: 100% !important;
+    }
+
+    .footer .grupo-1 .box figure img {
+        width: 249.47px;
+        height: 91px;
+        margin-bottom: 48px !important;
+    }
+
+    .pantallas{
+		width: 55% !important;
+	}
+	.telefono{
+		width: 45% !important;
+	}
+    .redes-footer{
+        width: 85% !important;
+        text-align: right;
+    }
+
+    .red-social{
+        margin-right: 0px;
+    }
+    
+}

@@ -1,0 +1,99 @@
+.servicios {
+    padding-top: 160px;
+    padding-bottom: 44px;
+    background-color: #0577DC;
+}
+
+.servicios sub {
+    color: #ffffff;
+    font-size: 13px !important;
+    font-weight: 500;
+}
+
+.servicios h3 {
+    color: #ffffff;
+    font-size: 30px !important;
+    font-weight: 600;
+}
+
+.servicios p {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.servicios-card {
+    padding-top: 40px;
+}
+
+.servicios-espaciado {
+    margin-left: 135px;
+    padding-right: 84px;
+    width: 350px !important;
+}
+
+.servicios .card-box h4 {
+    font-size: 18px !important;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.servicios .card-box p {
+    font-size: 14px !important;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: left;
+}
+
+.servicios .card-box {
+    width: 298px !important;
+    height: 255px !important;
+}
+
+.alineacion-izquierda{
+    text-align: left;
+}
+
+.box-servicios{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #0577dc;
+    flex-wrap: wrap;
+   
+}
+
+.contenedor-servicios-3{
+    padding: 0px !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-boton-detalle{
+    background-color: #0577DC;
+    border-top: 2px solid #0577dc;
+    text-align: right;
+    flex-wrap: wrap;
+    padding-bottom: 134px;
+}
+
+.box-boton-detalle button{
+    margin-right: 135px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    width: 253px;
+    height: 37px;
+    border-radius: 0px;
+}
+
+.img-circulo-inicio{
+    width: 58px;
+    height: 58px;
+}
+
+.card-flex{
+    display: flex;
+    gap: 26px;
+    flex-wrap: wrap;
+}

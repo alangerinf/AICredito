@@ -1,0 +1,114 @@
+.block-3-nosotros-bottom {
+    padding-bottom: 34px;
+}
+
+.block-3-nosotros-margin{
+    margin-top: -8%;
+}
+
+.nosotros-card{
+    background-color: #0577DC;
+    border: 1px solid #0577DC;
+    box-shadow: 0px 20px 50px rgba(41, 93, 197, 0.4);
+    margin-right: 2px;
+    width: 470px;
+    height: 216px;
+}
+
+.nosotros-card-left{
+    margin-left: 2px !important;
+}
+
+.nosotros-card-right{
+    margin-right: 2px !important;
+}
+
+.block-3-nosotros-card-alineacion{
+    align-self: center; 
+    text-align: center;
+}
+
+.block-3-mision{
+    padding-top: 30px; 
+    padding-bottom: 27px;
+}
+
+.block-3-vision{
+    padding-top: 30px;  
+    padding-bottom: 46px;
+}
+
+.texto-block-nosotros{
+    margin-top: 9px;
+    margin-right: 42px;
+}
+
+.nosotros-card p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    }
+    
+    .nosotros-card sub{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    
+    }
+
+.contenido-nosotros{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.box-contenido-nosotros{
+    display: flex;
+    justify-content: center;
+
+}
+
+.img-nosotros{
+    width: 80px !important;
+    height: 80px !important;
+}
+
+.box-image{
+    width: 152px !important;
+    height: 216px !important;
+    text-align: center;
+    margin-top: 44px;
+}
+
+.box-contenido{
+    width: 318px !important;
+    margin-top: 28px;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:480px){
+    .box-contenido-nosotros{
+        flex-direction: column !important;
+        flex-wrap:nowrap !important;
+        
+    }
+
+    .texto-block-nosotros{
+        margin-right: 0px !important;
+    }
+
+    .nosotros-card{
+        height: 290px !important;
+    }
+
+    .box-contenido{
+        margin-left: 24px !important;
+    }
+}

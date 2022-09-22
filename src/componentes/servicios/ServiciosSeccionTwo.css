@@ -1,0 +1,80 @@
+.ayuda-servicios sub{
+    color: #0577DC !important;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.ayuda-servicios{
+    margin-bottom: 76px; 
+    padding-top: 229px;
+}
+
+.servicios-two-fondo{
+    background: #F2F4F8;
+}
+
+.titulos-azul-servicios {
+    color: #1D0C63 !important;
+    font-size: 30px;
+    font-weight: 600 !important;
+}
+
+
+.contenido-servicios .card-box{
+    height: 50vh !important;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(5, 119, 220, 0.06);
+}
+.espaciado-bajo-servicios{
+    padding-bottom: 144px;
+}
+
+.alineacion-izquierda-servicios{
+    text-align: left;
+    font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 21px;
+}
+
+.contenido-servicios-2 p{
+    font-size: 14px !important;
+}
+
+.card-box {
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    background-color: #295DC5;
+}
+
+h4 {
+    line-height: 22px;
+    font-size: 18px;
+}
+.thumb-lg {
+    height: 88px;
+    width: 88px;
+}
+
+.contenido-servicios-2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 34px;
+}
+
+.contenido-servicios-2 .card-box{
+    height: 410px;
+    width: 298px;
+    border-radius: 0px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(5, 119, 220, 0.06);
+}
+
+.circulos{
+    width: 69px;
+    height: 69px;
+}

@@ -1,0 +1,26 @@
+.nosotros-info{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #585858;
+    }
+
+    
+.ayuda sub{
+        color: #0577DC !important;
+        font-size: 13px;
+        font-weight: 500;
+}
+
+
+.back-block-2-nosotros{
+    background: #F2F4F8;
+}
+    
+
+.espacio-block-2-nosotros{
+    padding-bottom: 264px; 
+    padding-top: 226px;
+}
